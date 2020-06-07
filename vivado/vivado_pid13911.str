@@ -1,0 +1,469 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:07 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 13911
+License: Customer
+
+Current time: 	Mon Jan 22 22:58:04 CST 2018
+Time zone: 	Central Standard Time (US/Central)
+
+OS: CentOS release 6.9 (Final)
+OS Version: 2.6.32-696.18.7.el6.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: :52.0
+Screen size: 1440x805
+Screen resolution (DPI): 72
+Available screens: 1
+Available disk space: 40 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/misc/linuxws/packages/xilinx_2017/Vivado/2017.3/tps/lnx64/jre
+JVM executable location: 	/misc/linuxws/packages/xilinx_2017/Vivado/2017.3/tps/lnx64/jre/bin/java
+
+User name: 	agroszewski
+User home directory: /home/ecelrc/students/agroszewski
+User working directory: /home/ecelrc/students/agroszewski/arch18/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /misc/linuxws/packages/xilinx_2017/Vivado
+HDI_APPROOT: /usr/local/packages/xilinx_2017/Vivado/2017.3
+RDI_DATADIR: /misc/linuxws/packages/xilinx_2017/Vivado/2017.3/data
+RDI_BINDIR: /misc/linuxws/packages/xilinx_2017/Vivado/2017.3/bin
+
+User preferences location: /home/ecelrc/students/agroszewski/.Xilinx/Vivado
+Vivado preferences directory: /home/ecelrc/students/agroszewski//.Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: /home/ecelrc/students/agroszewski/.Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	/misc/linuxws/packages/xilinx_2017/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/ecelrc/students/agroszewski/arch18/vivado/vivado.log
+Vivado journal file location: 	/home/ecelrc/students/agroszewski/arch18/vivado/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-13911-toad
+
+GUI allocated memory:	168 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 5,005 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 61 MB (+61260kb) [00:00:06]
+// [Engine Memory]: 5,005 MB (+5097167kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,011 MB. GUI used memory: 29 MB. Current time: 1/22/18 10:58:06 PM CST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.xpr", 0); // q (O, cl)
+// Opening Vivado Project: /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,088 MB. GUI used memory: 30 MB. Current time: 1/22/18 11:00:06 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2017/Vivado/2017.3/data/ip'. 
+// Project name: lab1; location: /home/ecelrc/students/agroszewski/arch18/vivado/lab1; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:10 . Memory (MB): peak = 6308.414 ; gain = 146.746 ; free physical = 90541 ; free virtual = 93931 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 64 MB (+262kb) [00:02:33]
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cl):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {/home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.srcs/sources_1/bd/mem_test/mem_test.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0 Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0 Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_1 Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0 Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M Successfully read diagram <mem_test> from BD file </home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.srcs/sources_1/bd/mem_test/mem_test.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 6360.617 ; gain = 25.020 ; free physical = 90633 ; free virtual = 94023 
+// [GUI Memory]: 69 MB (+1395kb) [00:02:51]
+// 'by' command handler elapsed time: 7 seconds
+dismissDialog("Open Block Design"); // bs (cl)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// [GUI Memory]: 74 MB (+1499kb) [00:02:55]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /processing_system7_0_FCLK_CLK0 
+// Elapsed time: 26 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cl): Create and Package New IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,229 MB. GUI used memory: 40 MB. Current time: 1/22/18 11:01:21 PM CST
+// Elapsed time: 11 seconds
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+// Elapsed time: 17 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "LFSR_axilite"); // X (N, Q)
+// Elapsed time: 27 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "32-bit LFSR with AXI-Lite peripheral and no enable"); // X (N, Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+// Elapsed time: 44 seconds
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_EDIT_IP, "Edit IP"); // a (N, Q)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 116 seconds
+dismissDialog("Create and Package New IP"); // Q (cl)
+// Tcl Message: create_peripheral ecelrc user LFSR_axilite 1.0 -dir /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo 
+// bs (cl):  Create Peripheral IP : addNotify
+// Tcl Message: add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core ecelrc:user:LFSR_axilite:1.0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core ecelrc:user:LFSR_axilite:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core ecelrc:user:LFSR_axilite:1.0] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0 [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0'. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name edit_LFSR_axilite_v1_0 -directory /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2017/Vivado/2017.3/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 5,279 MB (+24617kb) [00:05:24]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,284 MB. GUI used memory: 49 MB. Current time: 1/22/18 11:03:21 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 6420.238 ; gain = 57.613 ; free physical = 90592 ; free virtual = 93983 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 6422.238 ; gain = 59.613 ; free physical = 90571 ; free virtual = 93961 
+// Elapsed time: 12 seconds
+dismissDialog("Create Peripheral IP"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 79 MB (+2220kb) [00:05:32]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 86 MB (+2437kb) [00:05:33]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP-XACT]", 2); // B (D, cl)
+// [GUI Memory]: 91 MB (+640kb) [00:05:46]
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Design", 1); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Signals", 2); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Board", 3); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Signals", 2); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Design", 1); // aF (Q, cl)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cl)
+// Elapsed time: 20 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cl)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Block Designs, mem_test]", 1); // B (D, cl)
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cl) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, cl) - Node
+// [GUI Memory]: 96 MB (+484kb) [00:07:46]
+// Elapsed time: 27 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cl): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "LFSR_axilite"); // X (N, Q)
+// [GUI Memory]: 104 MB (+3637kb) [00:08:19]
+// Elapsed time: 17 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "32-bit LFSR with AXI-Lite peripherals and no enable pin"); // X (N, Q)
+selectCheckBox(PAResourceItoN.NewIpWizard_OVERWRITE_EXISTING, "Overwrite existing", true); // g (N, Q): TRUE
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_EDIT_IP, "Edit IP"); // a (N, Q)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 41 seconds
+dismissDialog("Create and Package New IP"); // Q (cl)
+// bs (cl):  Create Peripheral IP : addNotify
+// Tcl Message: create_peripheral ecelrc user LFSR_axilite 1.0 -dir /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo 
+// Tcl Message: add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core ecelrc:user:LFSR_axilite:1.0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -driver -bfm_example_design -debug_hw_example_design -force [ipx::find_open_core ecelrc:user:LFSR_axilite:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core ecelrc:user:LFSR_axilite:1.0] 
+// Tcl Message: current_project lab1 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {/home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0 /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0'. 
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name edit_LFSR_axilite_v1_0 -directory /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0/component.xml 
+// Tcl Message: ERROR: [Ipptcl 7-561] A project named 'edit_LFSR_axilite_v1_0' is already opened. 
+// Tcl Message: ERROR: [Common 17-39] 'ipx::edit_ip_in_project' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'ipx::edit_ip_in_project' failed due to earlier errors.  
+dismissDialog("Create Peripheral IP"); // bs (cl)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 55 MB. Current time: 1/22/18 11:06:36 PM CST
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+// Elapsed time: 11 seconds
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 16 seconds
+setFileChooser("/home/ecelrc/students/agroszewski/arch18/verilog/lfsr/lfsr.v");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", true); // g (aY, c): TRUE
+// Elapsed time: 10 seconds
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 49 seconds
+// [GUI Memory]: 111 MB (+1935kb) [00:09:51]
+dismissDialog("Add Sources"); // c (cl)
+// Tcl Message: current_project edit_LFSR_axilite_v1_0 
+// Tcl Message: add_files -norecurse -scan_for_includes -copy_to /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0/src /home/ecelrc/students/agroszewski/arch18/verilog/lfsr/lfsr.v 
+// Tcl Message: ERROR: [Common 17-69] Command failed: '-scan_for_includes' and '-copy_to' are mutually exclusive and cannot be paired together.  
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-69] Command failed: '-scan_for_includes' and '-copy_to' are mutually exclusive and cannot be paired together.   
+// a (cl): Critical Messages: addNotify
+// Elapsed time: 13 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (cl)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cl): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+setFileChooser("/home/ecelrc/students/agroszewski/arch18/verilog/lfsr/lfsr.v");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", false); // g (aY, c): FALSE
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c (cl)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse -copy_to /home/ecelrc/students/agroszewski/arch18/vivado/ip_repo/LFSR_axilite_1.0/src /home/ecelrc/students/agroszewski/arch18/verilog/lfsr/lfsr.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,375 MB. GUI used memory: 55 MB. Current time: 1/22/18 11:08:31 PM CST
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAPropertyPanels.initPanels (LFSR_axilite_v1_0.v) elapsed time: 0.2s
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LFSR_axilite_v1_0 (LFSR_axilite_v1_0.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LFSR_axilite_v1_0 (LFSR_axilite_v1_0.v)]", 1, true); // B (D, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LFSR_axilite_v1_0 (LFSR_axilite_v1_0.v)]", 1, true, false, false, false, false, true); // B (D, cl) - Double Click - Node
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 57 MB. Current time: 1/22/18 11:38:36 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 12:08:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 12:38:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 1:08:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 1:38:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 2:08:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 2:38:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 3:08:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 3:38:36 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 4:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 4:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 5:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 5:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 6:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 6:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 7:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 7:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 8:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 8:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 9:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 9:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 10:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 10:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 11:08:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 11:38:37 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 12:08:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 12:38:37 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 1:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 1:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 2:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/23/18 2:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 3:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 3:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 4:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 4:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 5:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 5:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 6:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 6:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 7:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 7:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 8:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 8:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 9:08:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 9:38:38 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 10:08:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 10:38:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 11:08:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/23/18 11:38:39 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 12:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 12:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 1:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 1:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 2:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 2:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 3:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 3:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 4:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 4:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 5:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 5:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 6:08:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 6:38:39 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/24/18 7:08:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 7:38:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 8:08:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/24/18 8:38:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 9:08:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/24/18 9:38:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 10:08:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 10:38:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 11:08:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 11:38:40 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 12:08:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 12:38:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 1:08:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 1:38:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 2:08:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 2:38:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 3:08:40 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/24/18 3:38:41 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 4:08:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 4:38:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/24/18 5:08:42 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 5:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 6:08:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 6:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 7:08:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 7:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 8:08:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 8:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 9:08:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 9:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 10:08:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/24/18 10:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 11:08:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/24/18 11:38:43 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 12:08:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 12:38:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 1:08:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 1:38:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 2:08:43 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 2:38:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 3:08:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 3:38:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 4:08:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 4:38:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 5:08:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 5:38:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 6:08:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 6:38:44 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 55 MB. Current time: 1/25/18 7:08:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 7:38:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 8:08:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 8:38:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 9:08:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 9:38:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 10:08:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 10:38:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 11:08:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 11:38:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 12:08:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 12:38:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 1:08:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 1:38:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 2:08:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,397 MB. GUI used memory: 54 MB. Current time: 1/25/18 2:38:50 PM CST

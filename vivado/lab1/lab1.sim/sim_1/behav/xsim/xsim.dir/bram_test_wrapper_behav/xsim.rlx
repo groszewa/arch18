@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3226876575997284983  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 40fdc0be19a045ce96933dfe089bb2f1 --incr --debug typical --relax --mt 8 -L axi_infrastructure_v1_1_0 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_0 -L axi_vip_v1_1_0 -L processing_system7_vip_v1_0_2 -L xil_defaultlib -L blk_mem_gen_v8_4_0 -L blk_mem_gen_v8_3_6 -L axi_bram_ctrl_v4_0_12 -L axi_lite_ipif_v3_0_4 -L lib_cdc_v1_0_2 -L interrupt_control_v3_1_4 -L axi_gpio_v2_0_16 -L xlconstant_v1_1_3 -L proc_sys_reset_v5_0_12 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot bram_test_wrapper_behav xil_defaultlib.bram_test_wrapper xil_defaultlib.glbl" , 
+    buildDate : "Oct  4 2017" , 
+    buildTime : "20:01:51" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/bram_test_wrapper_behav/xsimk\"   \"xsim.dir/bram_test_wrapper_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_2.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_3.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_4.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_5.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_6.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_7.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_8.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_9.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_10.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_11.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_12.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_13.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_14.lnx64.o\" \"xsim.dir/bram_test_wrapper_behav/obj/xsim_15.lnx64.o\" \"/usr/local/packages/xilinx_2017/Vivado/2017.3/lib/lnx64.o/librdi_simulator_kernel.so\" \"/usr/local/packages/xilinx_2017/Vivado/2017.3/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

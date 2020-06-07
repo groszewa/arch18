@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/ec67/hdl" --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/d5d3/hdl/verilog" --include "../../../../lfsr_ip_verification.srcs/sim_1/imports/my_lfsr_copy_v1_0_bfm_1" --include "/usr/local/packages/xilinx_2017/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../lfsr_ip_verification.ip_user_files/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/0def/hdl/my_lfsr_copy_v1_0_S00_AXI.v" \
+"../../../../lfsr_ip_verification.ip_user_files/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/0def/hdl/my_lfsr_copy_v1_0.v" \
+"../../../../lfsr_ip_verification.ip_user_files/bd/my_lfsr_copy_v1_0_bfm_1/ip/my_lfsr_copy_v1_0_bfm_1_my_lfsr_copy_0_0/sim/my_lfsr_copy_v1_0_bfm_1_my_lfsr_copy_0_0.v" \
+
+sv xil_defaultlib  --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/ec67/hdl" --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/d5d3/hdl/verilog" --include "../../../../lfsr_ip_verification.srcs/sim_1/imports/my_lfsr_copy_v1_0_bfm_1" --include "/usr/local/packages/xilinx_2017/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../lfsr_ip_verification.ip_user_files/bd/my_lfsr_copy_v1_0_bfm_1/ip/my_lfsr_copy_v1_0_bfm_1_master_0_0/sim/my_lfsr_copy_v1_0_bfm_1_master_0_0_pkg.sv" \
+"../../../../lfsr_ip_verification.ip_user_files/bd/my_lfsr_copy_v1_0_bfm_1/ip/my_lfsr_copy_v1_0_bfm_1_master_0_0/sim/my_lfsr_copy_v1_0_bfm_1_master_0_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/ec67/hdl" --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/d5d3/hdl/verilog" --include "../../../../lfsr_ip_verification.srcs/sim_1/imports/my_lfsr_copy_v1_0_bfm_1" --include "/usr/local/packages/xilinx_2017/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../lfsr_ip_verification.ip_user_files/bd/my_lfsr_copy_v1_0_bfm_1/sim/my_lfsr_copy_v1_0_bfm_1.v" \
+"../../../../lfsr_ip_verification.srcs/sources_1/imports/hdl/my_lfsr_copy_v1_0_bfm_1_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/ec67/hdl" --include "../../../../lfsr_ip_verification.srcs/sources_1/bd/my_lfsr_copy_v1_0_bfm_1/ipshared/d5d3/hdl/verilog" --include "../../../../lfsr_ip_verification.srcs/sim_1/imports/my_lfsr_copy_v1_0_bfm_1" --include "/usr/local/packages/xilinx_2017/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../lfsr_ip_verification.srcs/sim_1/imports/bfm_design/my_lfsr_copy_v1_0_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

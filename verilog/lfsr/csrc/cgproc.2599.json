@@ -1,0 +1,39 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.22/_2599_archive_1.a",
+            "objects": [
+                [
+                    "Yetiu_d.o",
+                    13579
+                ]
+            ],
+            "size": 13579
+        }
+    ],
+    "Modules": {
+        "...MASTER...": {},
+        "lfsr": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "mode": 4,
+            "bytes": 7505,
+            "out": "objs/amcQw_d.o",
+            "checksum": 4294967295
+        },
+        "Yetiu_d": {
+            "mod": "lfsr",
+            "mode": 4,
+            "bytes": 13579,
+            "out": "Yetiu_d.o",
+            "checksum": 4294967295,
+            "archive": "archive.22/_2599_archive_1.a"
+        }
+    },
+    "reusePaths": {}
+}

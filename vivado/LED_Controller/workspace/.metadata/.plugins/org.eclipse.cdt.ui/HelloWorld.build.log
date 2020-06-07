@@ -1,0 +1,10 @@
+00:08:18 **** Incremental Build of configuration Debug for project HelloWorld ****
+make pre-build main-build 
+make: Warning: File `src/subdir.mk' has modification time 5.2 s in the future
+a9-linaro-pre-build-step
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.
+make: Nothing to be done for `main-build'.
+
+00:08:18 Build Finished (took 71ms)
+

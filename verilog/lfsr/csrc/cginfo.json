@@ -1,0 +1,100 @@
+{
+    "CurCompileUdps": {},
+    "MlibObjs": {},
+    "stat": {
+        "outputSizePerQuad": 174.0,
+        "mop/quad": 2.9050772626931569,
+        "ru_self_cgstart": {
+            "ru_minflt": 10965,
+            "ru_utime_sec": 0.057991000000000001,
+            "ru_stime_sec": 0.029995000000000001,
+            "ru_maxrss_kb": 47944,
+            "ru_majflt": 0,
+            "ru_nvcsw": 181,
+            "ru_nivcsw": 24
+        },
+        "totalObjSize": 79257,
+        "ru_childs_cgstart": {
+            "ru_minflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "quadSpeed": 22653.398009701454,
+        "nQuads": 453,
+        "nMops": 1316,
+        "ru_childs_end": {
+            "ru_minflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "ru_self_end": {
+            "ru_minflt": 13248,
+            "ru_utime_sec": 0.077988000000000002,
+            "ru_stime_sec": 0.040993000000000002,
+            "ru_maxrss_kb": 55760,
+            "ru_majflt": 0,
+            "ru_nvcsw": 256,
+            "ru_nivcsw": 39
+        },
+        "mopSpeed": 65809.871480722111,
+        "Frontend(%)": 74.358875724470437,
+        "CodeGen(%)": 25.641124275529567
+    },
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "mode": 4,
+                "out": "objs/amcQw_d.o",
+                "bytes": 7093,
+                "mod": "...MASTER...",
+                "checksum": 4294967295
+            }
+        }
+    },
+    "NameTable": {
+        "lfsr": [
+            "lfsr",
+            "Yetiu",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "PEModules": [],
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "bytes": 58173,
+        "out": "amcQwB.o"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "lfsr"
+    ],
+    "Misc": {
+        "archive_dir": "archive.22",
+        "cwd": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr",
+        "daidir_abs": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr/csrc",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir"
+    },
+    "CompileProcesses": [
+        "cgproc.2599.json"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStatus": "Successful"
+}

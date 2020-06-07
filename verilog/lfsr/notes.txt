@@ -1,0 +1,2 @@
+agroszewski@kamek (/home/ecelrc/students/agroszewski/arch18/verilog/lfsr) % ./simv | grep "en=1" | wc
+4294967296 21474836480 249108103168

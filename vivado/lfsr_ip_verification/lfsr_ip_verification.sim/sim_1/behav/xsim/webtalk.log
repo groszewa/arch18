@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Feb  7 20:47:00 2018
+# Process ID: 29755
+# Current directory: /home/ecelrc/students/agroszewski/arch18/vivado/lfsr_ip_verification/lfsr_ip_verification.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/ecelrc/students/agroszewski/arch18/vivado/lfsr_ip_verification/lfsr_ip_verification.sim/sim_1/behav/xsim/xsim.dir/my_lfsr_copy_v1_0_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/ecelrc/students/agroszewski/arch18/vivado/lfsr_ip_verification/lfsr_ip_verification.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/ecelrc/students/agroszewski/arch18/vivado/lfsr_ip_verification/lfsr_ip_verification.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/ecelrc/students/agroszewski/arch18/vivado/lfsr_ip_verification/lfsr_ip_verification.sim/sim_1/behav/xsim/xsim.dir/my_lfsr_copy_v1_0_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb  7 20:47:00 2018...

@@ -1,0 +1,10 @@
+00:08:18 **** Incremental Build of configuration Debug for project CoreMark ****
+make pre-build main-build 
+make: Warning: File `src/subdir.mk' has modification time 5.2 s in the future
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+00:08:18 Build Finished (took 68ms)
+

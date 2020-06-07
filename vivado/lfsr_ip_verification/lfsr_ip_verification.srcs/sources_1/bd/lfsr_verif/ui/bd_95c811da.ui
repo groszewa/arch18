@@ -1,0 +1,26 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port reset_rtl -pg 1 -y 80 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 100 -defaultsOSRD
+preplace port reset_rtl_0 -pg 1 -y -130 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst mylfsr_test_0 -pg 1 -lvl 1 -y -50 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace inst rst_clk_wiz_100M -pg 1 -lvl 2 -y -70 -defaultsOSRD
+preplace netloc clk_wiz_locked 1 1 1 210
+preplace netloc sys_clock_1 1 0 1 N
+preplace netloc axi_vip_0_M_AXI 1 0 3 -10 150 NJ 150 580
+preplace netloc rst_clk_wiz_100M_interconnect_aresetn 1 1 2 220 140 590
+preplace netloc reset_rtl_0_1 1 0 2 NJ -130 210J
+preplace netloc reset_rtl_1 1 0 1 N
+preplace netloc rst_clk_wiz_100M_peripheral_aresetn 1 0 3 0 160 NJ 160 600
+preplace netloc clk_wiz_clk_out1 1 0 2 -20 -120 200
+levelinfo -pg 1 -40 100 400 620 -top -160 -bot 170
+",
+}
+{
+   da_board_cnt: "3",
+   da_clkrst_cnt: "1",
+}

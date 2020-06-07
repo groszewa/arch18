@@ -1,0 +1,110 @@
+{
+    "MlibObjs": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "lfsr_axi_tb"
+    ],
+    "CurCompileUdps": {},
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7101,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "mode": 4,
+                "checksum": 4294967295
+            }
+        },
+        "lfsr_axi_tb": {
+            "PmQMM_d": {
+                "bytes": 47077,
+                "mod": "lfsr_axi_tb",
+                "out": "PmQMM_d.o",
+                "mode": 4,
+                "checksum": 4294967295,
+                "archive": "archive.35/_5358_archive_1.a"
+            }
+        }
+    },
+    "NameTable": {
+        "lfsr_axi_tb": [
+            "lfsr_axi_tb",
+            "PmQMM",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.082987000000000005,
+            "ru_stime_sec": 0.030995000000000002,
+            "ru_nivcsw": 24,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 50488,
+            "ru_nvcsw": 193,
+            "ru_minflt": 11625
+        },
+        "mopSpeed": 128520.08126269732,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nivcsw": 0,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nvcsw": 0,
+            "ru_minflt": 0
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_nivcsw": 0,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nvcsw": 0,
+            "ru_minflt": 0
+        },
+        "nMops": 4112,
+        "totalObjSize": 113173,
+        "Frontend(%)": 72.173905480857869,
+        "nQuads": 1742,
+        "quadSpeed": 54446.007188623233,
+        "ru_self_end": {
+            "ru_utime_sec": 0.114982,
+            "ru_stime_sec": 0.046991999999999999,
+            "ru_nivcsw": 47,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 58460,
+            "ru_nvcsw": 270,
+            "ru_minflt": 14001
+        },
+        "mop/quad": 2.3605051664753156,
+        "outputSizePerQuad": 64.0,
+        "CodeGen(%)": 27.826094519142124
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 58995
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.5358.json"
+    ],
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi_v2",
+        "archive_dir": "archive.35",
+        "csrc": "csrc",
+        "csrc_abs": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi_v2/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi_v2/simv.daidir"
+    },
+    "CompileStatus": "Successful"
+}

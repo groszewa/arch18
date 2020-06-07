@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Jan 16 20:28:31 2018
+# Process ID: 10688
+# Current directory: /home/ecelrc/students/agroszewski/arch18/vivado/tutorial1
+# Command line: vivado
+# Log file: /home/ecelrc/students/agroszewski/arch18/vivado/tutorial1/vivado.log
+# Journal file: /home/ecelrc/students/agroszewski/arch18/vivado/tutorial1/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/agroszewski/arch18/vivado/tutorial1/tutorial1.xpr
+update_compile_order -fileset sources_1

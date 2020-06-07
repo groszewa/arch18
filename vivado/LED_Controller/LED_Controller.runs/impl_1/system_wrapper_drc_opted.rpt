@@ -1,0 +1,369 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Jan 16 19:24:09 2018
+| Host         : toad running 64-bit CentOS release 6.9 (Final)
+| Command      : report_drc -file system_wrapper_drc_opted.rpt -pb system_wrapper_drc_opted.pb -rpx system_wrapper_drc_opted.rpx
+| Design       : system_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 66
++-----------+------------------+------------------------------------------------+------------+
+| Rule      | Severity         | Description                                    | Violations |
++-----------+------------------+------------------------------------------------+------------+
+| PLIO-5    | Error            | Placement Constraints Check for IO constraints | 32         |
+| REQP-1582 | Error            | iobuf_io_loaded                                | 32         |
+| NSTD-1    | Critical Warning | Unspecified I/O Standard                       | 1          |
+| UCIO-1    | Critical Warning | Unconstrained Logical Port                     | 1          |
++-----------+------------------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLIO-5#1 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[0] has following unbuffered loads :  pwm1/PWM_out0_carry_i_4(LUT4) pwm1/PWM_out0_carry_i_8(LUT4)
+Related violations: <none>
+
+PLIO-5#2 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[10] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_3(LUT4) pwm1/PWM_out0_carry__0_i_7(LUT4)
+Related violations: <none>
+
+PLIO-5#3 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[11] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_7(LUT4) pwm1/PWM_out0_carry__0_i_3(LUT4)
+Related violations: <none>
+
+PLIO-5#4 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[12] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_2(LUT4) pwm1/PWM_out0_carry__0_i_6(LUT4)
+Related violations: <none>
+
+PLIO-5#5 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[13] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_6(LUT4) pwm1/PWM_out0_carry__0_i_2(LUT4)
+Related violations: <none>
+
+PLIO-5#6 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[14] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_1(LUT4) pwm1/PWM_out0_carry__0_i_5(LUT4)
+Related violations: <none>
+
+PLIO-5#7 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[15] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_5(LUT4) pwm1/PWM_out0_carry__0_i_1(LUT4)
+Related violations: <none>
+
+PLIO-5#8 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[16] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_4(LUT4) pwm1/PWM_out0_carry__1_i_8(LUT4)
+Related violations: <none>
+
+PLIO-5#9 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[17] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_8(LUT4) pwm1/PWM_out0_carry__1_i_4(LUT4)
+Related violations: <none>
+
+PLIO-5#10 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[18] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_3(LUT4) pwm1/PWM_out0_carry__1_i_7(LUT4)
+Related violations: <none>
+
+PLIO-5#11 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[19] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_7(LUT4) pwm1/PWM_out0_carry__1_i_3(LUT4)
+Related violations: <none>
+
+PLIO-5#12 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[1] has following unbuffered loads :  pwm1/PWM_out0_carry_i_8(LUT4) pwm1/PWM_out0_carry_i_4(LUT4)
+Related violations: <none>
+
+PLIO-5#13 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[20] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_2(LUT2) pwm1/PWM_out0_carry__1_i_6(LUT2)
+Related violations: <none>
+
+PLIO-5#14 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[21] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_2(LUT2) pwm1/PWM_out0_carry__1_i_6(LUT2)
+Related violations: <none>
+
+PLIO-5#15 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[22] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_1(LUT2) pwm1/PWM_out0_carry__1_i_5(LUT2)
+Related violations: <none>
+
+PLIO-5#16 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[23] has following unbuffered loads :  pwm1/PWM_out0_carry__1_i_1(LUT2) pwm1/PWM_out0_carry__1_i_5(LUT2)
+Related violations: <none>
+
+PLIO-5#17 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[24] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_4(LUT2) pwm1/PWM_out0_carry__2_i_8(LUT2)
+Related violations: <none>
+
+PLIO-5#18 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[25] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_4(LUT2) pwm1/PWM_out0_carry__2_i_8(LUT2)
+Related violations: <none>
+
+PLIO-5#19 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[26] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_3(LUT2) pwm1/PWM_out0_carry__2_i_7(LUT2)
+Related violations: <none>
+
+PLIO-5#20 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[27] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_3(LUT2) pwm1/PWM_out0_carry__2_i_7(LUT2)
+Related violations: <none>
+
+PLIO-5#21 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[28] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_2(LUT2) pwm1/PWM_out0_carry__2_i_6(LUT2)
+Related violations: <none>
+
+PLIO-5#22 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[29] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_2(LUT2) pwm1/PWM_out0_carry__2_i_6(LUT2)
+Related violations: <none>
+
+PLIO-5#23 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[2] has following unbuffered loads :  pwm1/PWM_out0_carry_i_3(LUT4) pwm1/PWM_out0_carry_i_7(LUT4)
+Related violations: <none>
+
+PLIO-5#24 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[30] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_1(LUT2) pwm1/PWM_out0_carry__2_i_5(LUT2)
+Related violations: <none>
+
+PLIO-5#25 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[31] has following unbuffered loads :  pwm1/PWM_out0_carry__2_i_1(LUT2) pwm1/PWM_out0_carry__2_i_5(LUT2)
+Related violations: <none>
+
+PLIO-5#26 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[3] has following unbuffered loads :  pwm1/PWM_out0_carry_i_7(LUT4) pwm1/PWM_out0_carry_i_3(LUT4)
+Related violations: <none>
+
+PLIO-5#27 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[4] has following unbuffered loads :  pwm1/PWM_out0_carry_i_2(LUT4) pwm1/PWM_out0_carry_i_6(LUT4)
+Related violations: <none>
+
+PLIO-5#28 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[5] has following unbuffered loads :  pwm1/PWM_out0_carry_i_6(LUT4) pwm1/PWM_out0_carry_i_2(LUT4)
+Related violations: <none>
+
+PLIO-5#29 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[6] has following unbuffered loads :  pwm1/PWM_out0_carry_i_1(LUT4) pwm1/PWM_out0_carry_i_5(LUT4)
+Related violations: <none>
+
+PLIO-5#30 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[7] has following unbuffered loads :  pwm1/PWM_out0_carry_i_5(LUT4) pwm1/PWM_out0_carry_i_1(LUT4)
+Related violations: <none>
+
+PLIO-5#31 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[8] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_4(LUT4) pwm1/PWM_out0_carry__0_i_8(LUT4)
+Related violations: <none>
+
+PLIO-5#32 Error
+Placement Constraints Check for IO constraints  
+IO term LED_DutyCycle_tri_io[9] has following unbuffered loads :  pwm1/PWM_out0_carry__0_i_8(LUT4) pwm1/PWM_out0_carry__0_i_4(LUT4)
+Related violations: <none>
+
+REQP-1582#1 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_0 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#2 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_1 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#3 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_10 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#4 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_11 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#5 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_12 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#6 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_13 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#7 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_14 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#8 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_15 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#9 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_16 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#10 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_17 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#11 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_18 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#12 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_19 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#13 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_2 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#14 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_20 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#15 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_21 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#16 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_22 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#17 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_23 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#18 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_24 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#19 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_25 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#20 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_26 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#21 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_27 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#22 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_28 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#23 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_29 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#24 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_3 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#25 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_30 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#26 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_31 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#27 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_4 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#28 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_5 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#29 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_6 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#30 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_7 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#31 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_8 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+REQP-1582#32 Error
+iobuf_io_loaded  
+IOBUF LED_DutyCycle_tri_iobuf_9 pin IO drives one or more invalid loads.
+Related violations: <none>
+
+NSTD-1#1 Critical Warning
+Unspecified I/O Standard  
+32 out of 163 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: LED_DutyCycle_tri_io[31:0].
+Related violations: <none>
+
+UCIO-1#1 Critical Warning
+Unconstrained Logical Port  
+33 out of 163 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: LEDS, LED_DutyCycle_tri_io[31:0].
+Related violations: <none>
+
+

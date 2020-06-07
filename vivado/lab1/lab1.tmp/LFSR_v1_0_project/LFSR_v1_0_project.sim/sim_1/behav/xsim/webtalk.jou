@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Feb 13 21:26:56 2018
+# Process ID: 10534
+# Current directory: /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.tmp/LFSR_v1_0_project/LFSR_v1_0_project.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.tmp/LFSR_v1_0_project/LFSR_v1_0_project.sim/sim_1/behav/xsim/xsim.dir/LFSR_v1_0_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.tmp/LFSR_v1_0_project/LFSR_v1_0_project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.tmp/LFSR_v1_0_project/LFSR_v1_0_project.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/ecelrc/students/agroszewski/arch18/vivado/lab1/lab1.tmp/LFSR_v1_0_project/LFSR_v1_0_project.sim/sim_1/behav/xsim/xsim.dir/LFSR_v1_0_behav/webtalk/xsim_webtalk.tcl -notrace

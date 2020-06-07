@@ -1,0 +1,12 @@
+{
+    "lfsr_axi_tb": [
+        "lfsr_axi_tb",
+        "PmQMM",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ]
+}

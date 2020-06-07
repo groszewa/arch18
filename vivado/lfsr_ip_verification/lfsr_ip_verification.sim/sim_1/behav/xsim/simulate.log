@@ -1,0 +1,17 @@
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: my_lfsr_copy_v1_0_tb.DUT.my_lfsr_copy_v1_0_bfm_1_i.master_0.inst
+Sequential write transfers example similar to  AXI BFM WRITE_BURST method starts
+Sequential write transfers example similar to  AXI BFM WRITE_BURST method completes
+Sequential read transfers example similar to  AXI BFM READ_BURST method starts
+TESTBENCH Passed! Data expected is equal to actual. expected = 0x0000000000000000000000000000000000000000000000000000000000000001 actual   = 0x0000000000000000000000000000000000000000000000000000000000000001
+TESTBENCH Passed! Data expected is equal to actual. expected = 0x0000000000000000000000000000000000000000000000000000000000000002 actual   = 0x0000000000000000000000000000000000000000000000000000000000000002
+TESTBENCH Passed! Data expected is equal to actual. expected = 0x0000000000000000000000000000000000000000000000000000000000000003 actual   = 0x0000000000000000000000000000000000000000000000000000000000000003
+TESTBENCH Passed! Data expected is equal to actual. expected = 0x0000000000000000000000000000000000000000000000000000000000000004 actual   = 0x0000000000000000000000000000000000000000000000000000000000000004
+Sequential read transfers example similar to  AXI BFM READ_BURST method completes
+Sequential read transfers example similar to  AXI VIP READ_BURST method completes
+---------------------------------------------------------
+EXAMPLE TEST S00_AXI: PTGEN_TEST_FINISHED!
+PTGEN_TEST: PASSED!
+---------------------------------------------------------
+$finish called at time : 616 ns : File "/home/ecelrc/students/agroszewski/arch18/vivado/lfsr_ip_verification/lfsr_ip_verification.srcs/sim_1/imports/bfm_design/my_lfsr_copy_v1_0_tb.sv" Line 133

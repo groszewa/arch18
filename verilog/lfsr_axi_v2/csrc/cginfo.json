@@ -1,0 +1,110 @@
+{
+    "stat": {
+        "ru_self_end": {
+            "ru_stime_sec": 0.057991000000000001,
+            "ru_utime_sec": 0.100984,
+            "ru_minflt": 13995,
+            "ru_maxrss_kb": 58408,
+            "ru_nvcsw": 289,
+            "ru_majflt": 0,
+            "ru_nivcsw": 45
+        },
+        "Frontend(%)": 64.356729778974895,
+        "ru_self_cgstart": {
+            "ru_stime_sec": 0.047992,
+            "ru_utime_sec": 0.064990000000000006,
+            "ru_minflt": 11626,
+            "ru_maxrss_kb": 50492,
+            "ru_nvcsw": 209,
+            "ru_majflt": 0,
+            "ru_nivcsw": 23
+        },
+        "ru_childs_cgstart": {
+            "ru_stime_sec": 0.0,
+            "ru_utime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "nMops": 4112,
+        "nQuads": 1742,
+        "totalObjSize": 113173,
+        "ru_childs_end": {
+            "ru_stime_sec": 0.0,
+            "ru_utime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nvcsw": 0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "mopSpeed": 114241.26243262767,
+        "quadSpeed": 48396.955048063566,
+        "mop/quad": 2.3605051664753156,
+        "CodeGen(%)": 35.643270221025105,
+        "outputSizePerQuad": 64.0
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7101,
+                "mod": "...MASTER...",
+                "checksum": 4294967295,
+                "out": "objs/amcQw_d.o",
+                "mode": 4
+            }
+        },
+        "lfsr_axi_tb": {
+            "PmQMM_d": {
+                "bytes": 47077,
+                "mod": "lfsr_axi_tb",
+                "archive": "archive.36/_424_archive_1.a",
+                "checksum": 4294967295,
+                "out": "PmQMM_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "CompileProcesses": [
+        "cgproc.424.json"
+    ],
+    "NameTable": {
+        "lfsr_axi_tb": [
+            "lfsr_axi_tb",
+            "PmQMM",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "lfsr_axi_tb"
+    ],
+    "CompileStatus": "Successful",
+    "PEModules": [],
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi_v2",
+        "csrc_abs": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi_v2/csrc",
+        "archive_dir": "archive.36",
+        "daidir_abs": "/home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi_v2/simv.daidir",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 58995
+    }
+}

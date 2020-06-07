@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8427187248361550047  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 9453480b84674f53954fb66a5239ce00 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_0 -L axi_vip_v1_1_0 -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot my_lfsr_copy_v1_0_tb_behav xil_defaultlib.my_lfsr_copy_v1_0_tb xil_defaultlib.glbl" , 
+    buildDate : "Oct  4 2017" , 
+    buildTime : "20:01:51" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/my_lfsr_copy_v1_0_tb_behav/xsimk\"   \"xsim.dir/my_lfsr_copy_v1_0_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/my_lfsr_copy_v1_0_tb_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/my_lfsr_copy_v1_0_tb_behav/obj/xsim_2.lnx64.o\" \"xsim.dir/my_lfsr_copy_v1_0_tb_behav/obj/xsim_3.lnx64.o\" \"/usr/local/packages/xilinx_2017/Vivado/2017.3/lib/lnx64.o/librdi_simulator_kernel.so\" \"/usr/local/packages/xilinx_2017/Vivado/2017.3/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

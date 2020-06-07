@@ -1,0 +1,195 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V2} {gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V1} {gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr/lfsr_tb.dump -design V1} {gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr/project_tb.dump -design V1} {gui_open_db -file /home/ecelrc/students/agroszewski/dependable_computing/project/take2/project_tb.dump -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1436
+gui_set_state_value -category Layout -key child_console_size_y -value 155
+gui_set_state_value -category Layout -key child_data_size_x -value 263
+gui_set_state_value -category Layout -key child_data_size_y -value 456
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 150
+gui_set_state_value -category Layout -key child_hier_size_y -value 456
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1026
+gui_set_state_value -category Layout -key child_source_size_y -value 451
+gui_set_state_value -category Layout -key child_wave_colname -value 194
+gui_set_state_value -category Layout -key child_wave_colvalue -value 194
+gui_set_state_value -category Layout -key child_wave_left -value 393
+gui_set_state_value -category Layout -key child_wave_right -value 960
+gui_set_state_value -category Layout -key main_pos_x -value {-85}
+gui_set_state_value -category Layout -key main_pos_y -value 135
+gui_set_state_value -category Layout -key main_size_x -value 1351
+gui_set_state_value -category Layout -key main_size_y -value 841
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_source_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 1077
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 447
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1363
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 575
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value {-151}
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 212
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1207
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 887
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V1
+gui_list_expand -id  Hier.1   lfsr_axi_tb
+gui_list_expand -id  Hier.1   lfsr_axi_tb.my_axi_lfsr
+gui_list_select -id Hier.1 -current_item_name lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst -current_item_type Scope  -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst   }
+gui_list_select -id Data.1 -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_arready   }
+gui_list_select -id Data.1 -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_arready  lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARVALID   }
+gui_list_select -id Data.1 -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_arready  lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARVALID  {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARADDR[3:0]}   }
+gui_list_select -id Data.1 -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_arready  lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARVALID  {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARADDR[3:0]}  {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_araddr[3:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARADDR[3:0]} lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARVALID {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_araddr[3:0]} lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.axi_arready } -insertionbar
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_marker_move -id  Wave.1 C1 224560
+gui_marker_move -id  Wave.1 C1 1197656
+gui_list_select -id Hier.1 -current_item_name lfsr_axi_tb.my_axi_lfsr -current_item_type Scope  -selected  { lfsr_axi_tb.my_axi_lfsr   }
+gui_list_select -id Hier.1 -current_item_name lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst -current_item_type Scope  -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst   }
+gui_list_select -id Data.1 -selected  { {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.reg_data_out[31:0]}   }
+gui_list_add -id Wave.1 -from Data.1 { {lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.reg_data_out[31:0]} } -insertionbar
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_list_select -id Data.1 -selected  { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.slv_reg_rden   }
+gui_list_add -id Wave.1 -from Data.1 { lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.slv_reg_rden } -insertionbar
+gui_wv_scroll_hslidermove -id  Wave.1 239
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V2
+gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V3
+gui_list_select -id Hier.1 -current_item_name V3:lfsr_axi_tb -current_item_type Scope  -selected  { V3:lfsr_axi_tb   }
+gui_list_expand -id  Hier.1   V3:lfsr_axi_tb
+gui_list_expand -id  Hier.1   V3:lfsr_axi_tb.my_axi_lfsr
+gui_list_expand -id  Hier.1   V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst
+gui_list_select -id Hier.1 -current_item_name V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator -current_item_type Scope  -selected  { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator   }
+gui_list_select -id Data.1 -selected  { {V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}  {V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]}  V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk  V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr  V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data  V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn   }
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { {V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]} {V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]} V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn } -insertionbar
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_wv_scroll_hslidermove -id  Wave.2 454
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_wv_scroll_hslidermove -id  Wave.2 286
+gui_wv_scroll_hslidermove -id  Wave.2 262
+gui_list_select -id Hier.1 -current_item_name V3:lfsr_axi_tb -current_item_type Scope  -selected  { V3:lfsr_axi_tb   }
+gui_list_select -id Data.1 -selected  { {V3:lfsr_axi_tb.s00_axi_rdata[31:0]}   }
+gui_list_add -id Wave.2 -from Data.1 { {V3:lfsr_axi_tb.s00_axi_rdata[31:0]} } -insertionbar
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_list_select -id Hier.1 -current_item_name V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst -current_item_type Scope  -selected  { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst   }
+gui_list_select -id Data.1 -selected  { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.slv_reg_rden   }
+gui_list_add -id Wave.2 -from Data.1 { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.slv_reg_rden } -insertionbar
+gui_wv_scroll_hslidermove -id  Wave.2 569
+gui_close_window -window TopLevel.2
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_wv_scroll_hslidermove -id  Wave.2 378
+gui_wv_scroll_hslidermove -id  Wave.2 509
+gui_list_select -id Data.1 -selected  { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARREADY   }
+gui_list_add -id Wave.2 -from Data.1 { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARREADY } -insertionbar
+gui_wv_scroll_hslidermove -id  Wave.2 82
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_wv_zoom_timerange -id  Wave.2 55800 694777
+gui_list_select -id Data.1 -selected  { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARVALID   }
+gui_list_add -id Wave.2 -from Data.1 { V3:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.S_AXI_ARVALID } -insertionbar
+gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V4
+gui_list_select -id Hier.1 -current_item_name V4:lfsr_axi_tb -current_item_type Scope  -selected  { V4:lfsr_axi_tb   }
+gui_list_expand -id  Hier.1   V4:lfsr_axi_tb
+gui_list_select -id Hier.1 -current_item_name V4:lfsr_axi_tb.my_axi_lfsr -current_item_type Scope  -selected  { V4:lfsr_axi_tb.my_axi_lfsr   }
+gui_list_expand -id  Hier.1   V4:lfsr_axi_tb.my_axi_lfsr
+gui_list_expand -id  Hier.1   V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst
+gui_list_select -id Hier.1 -current_item_name V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator -current_item_type Scope  -selected  { V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator   }
+gui_list_select -id Data.1 -selected  { {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}   }
+gui_list_select -id Data.1 -selected  { {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}  {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]}  V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk  V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr  V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data  V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn   }
+gui_list_add -id Wave.2 -from Data.1 { {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]} {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]} V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn } -insertionbar
+gui_close_window -window TopLevel.3
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]} {V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]} V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn } -insertionbar
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 0.5
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_list_select -id Hier.1 -current_item_name V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst -current_item_type Scope  -selected  { V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst   }
+gui_list_select -id Data.1 -selected  { V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.slv_reg_rden   }
+gui_list_add -id Wave.1 -from Data.1 { V4:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.slv_reg_rden } -insertionbar
+gui_wv_scroll_hslidermove -id  Wave.1 870
+gui_wv_scroll_hslidermove -id  Wave.1 344
+gui_open_db -file /home/ecelrc/students/agroszewski/arch18/verilog/lfsr_axi/lfsr_axi_tb.dump -design V5
+gui_list_select -id Hier.1 -current_item_name V5:lfsr_axi_tb -current_item_type Scope  -selected  { V5:lfsr_axi_tb   }
+gui_list_expand -id  Hier.1   V5:lfsr_axi_tb
+gui_list_expand -id  Hier.1   V5:lfsr_axi_tb.my_axi_lfsr
+gui_list_expand -id  Hier.1   V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst
+gui_list_select -id Hier.1 -current_item_name V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator -current_item_type Scope  -selected  { V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator   }
+gui_list_select -id Data.1 -selected  { {V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}   }
+gui_list_show_data -select -id  Data.1   {V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}
+gui_list_select -id Data.1 -selected  { {V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]}  {V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]}  V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk  V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr  V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data  V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn   }
+gui_open_window Wave
+gui_list_add -id Wave.2 -from Data.1 { {V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_data[31:0]} {V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.lfsr_addr[9:0]} V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.clk V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_addr V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.en_data V5:lfsr_axi_tb.my_axi_lfsr.LFSR_v1_0_S00_AXI_inst.prn_generator.rstn } -insertionbar
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 0.5
+gui_zoom -window Wave.2 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.2 0
+gui_list_select -id Hier.1 -current_item_name V5:lfsr_axi_tb -current_item_type Scope  -selected  { V5:lfsr_axi_tb   }
+gui_list_select -id Data.1 -selected  { {V5:lfsr_axi_tb.s00_axi_rdata[31:0]}   }
+gui_list_add -id Wave.2 -from Data.1 { {V5:lfsr_axi_tb.s00_axi_rdata[31:0]} } -insertionbar
+gui_close_window -window TopLevel.1
+gui_close_window -window TopLevel.3

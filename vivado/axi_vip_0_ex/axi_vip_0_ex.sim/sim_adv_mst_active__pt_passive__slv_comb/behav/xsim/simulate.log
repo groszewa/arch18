@@ -1,0 +1,11 @@
+Vivado Simulator 2017.3
+Time resolution is 1 ps
+XilinxAXIVIP: Found at Path: axi_vip_0_exdes_adv_mst_active__pt_passive__slv_comb.DUT.ex_design.axi_vip_mst.inst
+XilinxAXIVIP: Found at Path: axi_vip_0_exdes_adv_mst_active__pt_passive__slv_comb.DUT.ex_design.axi_vip_passthrough.inst
+This AXI VIP is in passthrough mode
+XilinxAXIVIP: Found at Path: axi_vip_0_exdes_adv_mst_active__pt_passive__slv_comb.DUT.ex_design.axi_vip_slv.inst
+SUCCESS: Slave VIP against Master VIP scoreboard Compare passed
+SUCCESS: Slave VIP against Master VIP scoreboard Compare passed
+SUCCESS: Slave VIP against Master VIP scoreboard Compare passed
+EXAMPLE TEST DONE : Test Completed Successfully
+$finish called at time : 830 ns : File "../../../../imports/axi_vip_0_mst_stimulus.sv" Line 70

@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lab1.srcs/sources_1/bd/bram_test/ipshared/ec67/hdl" --include "../../../../lab1.srcs/sources_1/bd/bram_test/ipshared/d5d3/hdl/verilog" --include "../../../../lab1.srcs/sources_1/bd/bram_test/ipshared/e0a2/hdl" --include "../../../../lab1.srcs/sources_1/bd/bram_test/ipshared/571c/hdl/verilog" --include "/usr/local/packages/xilinx_2017/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../lab1.srcs/sources_1/imports/lfsr_no_hier/LFSR_v1_0.v" \
+"../../../../lab1.srcs/sources_1/imports/lfsr_no_hier/LFSR_v1_0_S00_AXI.v" \
+"../../../../lab1.srcs/sources_1/imports/lfsr_no_hier/lfsr_axi_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
